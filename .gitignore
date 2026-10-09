@@ -42,3 +42,13 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+
+# Credential files read by render.sh (azure -f FILE)
+*.env
+.env
+.env.*
+creds*
+*.secret
+
+# macOS
+.DS_Store
